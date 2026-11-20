@@ -1,0 +1,14 @@
+{
+  "name": "atcoder-randomproblems",
+  "version": "1.0.0",
+  "description": "html + js stuff to throw random atcoder problems at you based on given elo",
+  "author": "xopazaru0343",
+  "type": "commonjs",
+  "main": "listener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apache-arrow": "^21.2.0"
+  }
+}
