@@ -1,9 +1,9 @@
 {
   "name": "atcoder-randomproblems",
   "version": "1.0.0",
-  "description": "html + js stuff to throw random atcoder problems at you based on given elo",
+  "description": "app to throw 4 random problems from atcoder based on given codeforces elo",
   "author": "xopazaru0343",
-  "type": "commonjs",
+  "type": "module",
   "main": "listener.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
