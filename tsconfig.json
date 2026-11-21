@@ -4,6 +4,8 @@
     "module": "esnext",
     "target": "esnext",
     "skipLibCheck": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }

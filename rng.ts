@@ -1,5 +1,5 @@
 export function generateRandomNumber(min: number, max: number): number {
-    const range = max - min;
+    const range = max - min + 1;
     const maxGeneratedValue = 0xFFFFFFFF;
     const possibleResultValues = range + 1;
     const possibleGeneratedValues = maxGeneratedValue + 1;

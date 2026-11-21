@@ -1,7 +1,7 @@
 {
   "name": "atcoder-randomproblems",
   "version": "1.0.0",
-  "description": "",
+  "description": "randomproblems based on a given codeforces elo",
   "homepage": "https://github.com/xopazaru0343/atcoder-randomproblems#readme",
   "bugs": {
     "url": "https://github.com/xopazaru0343/atcoder-randomproblems/issues"
@@ -17,8 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "apache-arrow": "^21.2.0",
-    "axios": "^1.21.1",
-    "express": "^5.3.0"
+    "@types/node": "^26.6.6",
+    "apache-arrow": "^21.2.0"
   }
 }
