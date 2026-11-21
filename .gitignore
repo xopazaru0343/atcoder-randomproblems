@@ -2,3 +2,8 @@
 kenkoooo.com
 kenkoooo.com\atcoder
 kenkoooo.com\atcoder\resources
+node_modules/**
+node_modules
+node_modules/*
+node_modules/
+

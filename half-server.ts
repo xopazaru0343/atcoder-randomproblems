@@ -1,9 +1,12 @@
-import express, { Request, Response } from 'express';
+import { Response } from 'express';
+import express from 'express';
 import axios from 'axios';
 
 export function startServer(){
-const app = express();
-app.get('/', (req: Request, res: Response) => {
+    
+    const app = express();
+    
+    app.get('/', (res: Response) => {
         axios.get("https://kenkoooo.com/atcoder/resources/problem-models.json")
         .then((response: { data: any; }) => {
             res.header("Access-Control-Allow-Origin", "https://xopa0343.nekoweb.org/");
@@ -14,5 +17,6 @@ app.get('/', (req: Request, res: Response) => {
             console.log(error)
         })
     });
+
     app.listen(2222);
 }

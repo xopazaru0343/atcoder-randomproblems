@@ -4,22 +4,22 @@
     <title>the random thrower of atcoder problems</title>
 </head>
 <body>
-    <form id="myForm">
-        <label>Your codeforces elo: </label>
-        <input type="text" id="elo" name="elo" required><br><br>  
-        <input type="submit" value="Login">
-    </form>
+  <form id="eloForm">
+  <div>
+    <label for="elo">Elo: </label>
+    <input type="text" id="elo" name="elo">
+  </div>
+  <button type="submit">Send</button>
+  </form>
     <script type="importmap">
     {
       "imports": {
-        "apache-arrow": "https://esm.sh/apache-arrow@21.2.0",
-        "express": "https://esm.sh/express@5.3.0",
-        "axios": "https://esm.sh/axios@1.21.1"
+        "apache-arrow": "https://esm.unpkg.com/apache-arrow@21.2.0",
+        "express": "https://esm.unpkg.com/express@5.3.0",
+        "axios": "https://cdn.jsdelivr.net/npm/axios@1.21.1/+esm"
       }
     }
     </script>
-    <script src="listener.js" type="module"></script>
-    <script src="half-server.js" type="module"></script>
-    <script src="problemSorter.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
 </body>
 </html>
