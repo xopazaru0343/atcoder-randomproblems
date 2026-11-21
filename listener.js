@@ -1,4 +1,5 @@
 import { getProblem } from "./problemSorter.js";
+import { startServer } from "./half-server.js";
 async function urlHandler(url) {
     try {
         const answer = await fetch(url);
@@ -18,7 +19,8 @@ const form = document.getElementById("myForm");
 if (form != null) {
     form.addEventListener('submit', (SubmitEvent) => {
         SubmitEvent.preventDefault();
-        const url = new URL("https://kenkoooo.com/atcoder/resources/problem-models.json");
+        startServer();
+        const url = new URL("http://127.0.0.1:2222");
         urlHandler(url);
     });
 }

@@ -1,7 +1,15 @@
 {
   "name": "atcoder-randomproblems",
   "version": "1.0.0",
-  "description": "app to throw 4 random problems from atcoder based on given codeforces elo",
+  "description": "",
+  "homepage": "https://github.com/xopazaru0343/atcoder-randomproblems#readme",
+  "bugs": {
+    "url": "https://github.com/xopazaru0343/atcoder-randomproblems/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xopazaru0343/atcoder-randomproblems.git"
+  },
   "author": "xopazaru0343",
   "type": "module",
   "main": "listener.js",
@@ -9,6 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "apache-arrow": "^21.2.0"
+    "apache-arrow": "^21.2.0",
+    "axios": "^1.21.1",
+    "express": "^5.3.0"
   }
 }
