@@ -4,5 +4,6 @@
     "module": "esnext",
     "target": "esnext",
     "skipLibCheck": true,
+    "isolatedModules": true
   }
 }

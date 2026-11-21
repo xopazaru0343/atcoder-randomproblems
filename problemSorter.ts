@@ -14,7 +14,6 @@ export async function getProblem(elo: number, pResult: JSON): Promise<void> {
     const result = [...table].filter(
         (row) => row.difficulty >= x && row.difficulty <= y 
     );
-    result.map(item => item.id);
     const size: number = result.length;
     const problem1: number = generateRandomNumber(0, size-1);
     const problem2: number = generateRandomNumber(0, size-1);
