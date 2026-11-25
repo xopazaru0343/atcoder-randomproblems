@@ -1,2 +1,4 @@
 dist
 *.js
+test.js
+test.ts

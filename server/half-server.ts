@@ -1,11 +1,11 @@
-import { type Response } from 'express';
+import express, { type Response } from 'express';
+import axios from 'axios';
 
 export function startServer(){
-    const express = require('express');
-    const axios = require('axios');
+
     const app = express();
     
-    app.get('/', (res: Response) => {
+    app.get('/', (req: Request, res: Response) => {
         axios.get("https://kenkoooo.com/atcoder/resources/problem-models.json")
         .then((response: { data: any; }) => {
             res.header("Access-Control-Allow-Origin", "https://xopa0343.nekoweb.org/");
@@ -19,3 +19,4 @@ export function startServer(){
 
     app.listen(2222);
 }
+startServer();
