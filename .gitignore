@@ -1,4 +1,5 @@
+node_modules/
 dist
 *.js
 test.js
-test.ts
+test.ts 

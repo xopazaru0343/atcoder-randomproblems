@@ -1,4 +1,4 @@
-import express, { type Response } from 'express';
+import express, {type Request, type Response } from 'express';
 import axios from 'axios';
 
 export function startServer(){
